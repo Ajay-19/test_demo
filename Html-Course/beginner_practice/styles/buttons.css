@@ -1,0 +1,121 @@
+button
+      {
+      cursor: pointer;
+      }
+      .first_button
+      {
+        background-color: rgb(205, 6, 6);
+        color:White;
+        border:none;
+        height:30px;
+        width:95px;
+        border-radius: 2px;
+        margin-right:2px;
+      }
+      .second_button
+      {
+        height:30px;
+        width:60px;
+        color:rgb(20, 159, 240);
+        border-color:rgb(20, 159, 240);
+        border-style:solid;
+        border-width:1px;
+        background-color: white;
+        margin-right: 1px;
+      }
+      .third_button
+      {
+        background-color: rgb(8, 136, 241);
+        color:white;
+        border:none;
+        height:30px;
+        width: 65px;
+        border-radius: 15px;
+        font-weight: bold;
+        font-size: 15px;
+      }
+      .fourth_button
+      {
+        background-color: black;
+        color: white;
+        height: 30px;
+        width: 95px;
+        margin-top: 8px;
+        border-radius: 2px;
+      }
+      .fifth_button
+      {
+        background-color: rgb(243, 243, 65);
+        border-style: solid;
+        border: none;
+        margin-top: 8px;
+        height: 30px;
+        width: 140px;
+        border-radius: 15px;
+      }
+      .sixth_button
+      {
+        background-color: rgb(53, 240, 53);
+        color:white;
+        border:none;
+        margin-top: 8px;
+        height:30px;
+        width:80px;
+        font-weight: bold;
+        border-radius: 4px;
+      }
+      .seventh_button
+      {
+       background-color: rgb(121, 82, 179);
+       color:white;
+       margin-top: 8px;
+       border: none;
+       height: 30px;
+       width: 100px;
+       border-radius: 2px;
+       margin-right: 4px;
+      }
+      .eigth_button
+      {
+        background-color: white;
+        margin-top: 8px;
+        border-style: solid;
+        border-width: 1px;
+        height: 30px;
+        width:  100px;
+        border-radius:2px;
+      }
+      .ninth_button
+      {
+        background-color: rgb(10, 102, 194);
+        color:white;
+        margin-top: 8px;
+        border: none;
+        height:30px;
+        width:220px;
+        border-radius: 15px;
+      }
+      .tenth_button
+      {
+        color:rgb(10, 102, 194);
+        background-color: white;
+        margin-top: 8px;
+        border-width:1px;
+        height:30px;/*padding can be used here*/
+        width:70px;
+        border-radius: 15px;
+        border-style: solid;
+        border-color: rgb(10, 102, 194);
+        font-weight: bold;
+        transition: background-color 0.15s;/*property time_taken*/
+      }
+      .tenth_button:hover
+      {
+        background-color: rgb(124, 232, 140);
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.5);/*horizontal_value vertical_value blur_amount color*/
+      }
+      .tenth_button:active
+      {
+        background-color: red;
+        opacity: 0.5;
+      }
